@@ -1,7 +1,7 @@
 /*
 	Materia: Lenguajes de Programación
 	Equipo:	* Aguilar Enriquez, Paul Sebastian - 415028130
-		* Badillo Lora, Raúl -
+		* Badillo Lora, Raúl - 415033808
 		* Cabrera López, Oscar Emilio - 312333261
 	Programa: Programa que realiza las siguientes operaciones con vectores de n-dimensionales:
 		* Suma
