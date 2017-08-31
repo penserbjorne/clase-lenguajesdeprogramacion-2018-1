@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-# Copyright (c) 2017 Emilio Cabrera, Sebastian Aguilar, Badillo
+# Copyright (c) 2017 Emilio Cabrera, Sebastian Aguilar, Raúl Badillo
 #
 # GNU GENERAL PUBLIC LICENSE
 #    Version 3, 29 June 2007
