@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-# Copyright (c) 2017 Emilio Cabrera, Sebastian Aguilar, Raúcll Badillo
+#	Materia: Lenguajes de Programación
+#	Equipo: * Aguilar Enriquez, Paul Sebastian - 415028130
+#		* Badillo Lora, Raúl - 415033808
+#		* Cabrera López, Oscar Emilio - 312333261
+
+# Copyright (c) 2017
 #
 # GNU GENERAL PUBLIC LICENSE
 #    Version 3, 29 June 2007
