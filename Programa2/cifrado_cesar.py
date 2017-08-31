@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-# Copyright (c) 2017 Emilio Cabrera, Sebastian Aguilar, Raúl Badillo
+# Copyright (c) 2017 Emilio Cabrera, Sebastian Aguilar, Raúcll Badillo
 #
 # GNU GENERAL PUBLIC LICENSE
 #    Version 3, 29 June 2007
@@ -95,9 +95,9 @@ def cesar(text, num, rshift):
             list: Lista con las cadenas encriptadas.
     """
     shift = num if rshift else -num
-    codedline = ""
     codedtext = []
     for line in text:
+        codedline = ""
         line = line.lower()
         for char in line:
             newchar = ord(char) + shift
@@ -126,13 +126,16 @@ def main():
     shift = True if not args.lshift else False
     if args.file:
         for line in args.file:
+            line = line.strip('\n')
+            if not line:
+                continue
             text.append(line)
     elif args.text:
         text.append(args.text)
     else:
         text.append(input("Escribe el texto que quieras codificar: "))
     if args.output:
-        args.output.writelines(cesar(text, args.num, shift))
+        args.output.writelines('\n'.join(cesar(text, args.num, shift)))
     else:
         for line in cesar(text, args.num, shift):
             print(line)
